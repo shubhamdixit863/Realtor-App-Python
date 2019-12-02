@@ -79,13 +79,13 @@ WSGI_APPLICATION = 'btre.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
+# settings.py
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'btredb',
-        'USER':'postgres',
-        'PASSWORD':'123',
-        'HOST':'localhost'
+        'ENGINE': 'django.db.backends.mysql',
+        'OPTIONS': {
+            'read_default_file': os.path.join(BASE_DIR, 'my.cnf'),
+        },
     }
 }
 
@@ -144,6 +144,6 @@ MESSAGE_TAGS = {
 #email config
 EMAIL_HOST='smtp.gmail.com'
 EMAIL_PORT=587
-EMAIL_HOST_USER='searchingmyself660@gmail.com'
-EMAIL_HOST_PASSWORD='am@IITDELHI'
+EMAIL_HOST_USER=''
+EMAIL_HOST_PASSWORD='wC,e%JW?g(NV'
 EMAIL_USE_TLS=True

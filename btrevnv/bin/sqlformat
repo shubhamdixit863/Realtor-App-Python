@@ -1,4 +1,5 @@
-#!/Users/rst/djangonew/btre/btrevnv/bin/python3
+#!/home/user/Realtor-App-Python/btrevnv/bin/python3
+
 # -*- coding: utf-8 -*-
 import re
 import sys

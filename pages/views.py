@@ -24,3 +24,6 @@ def about(request):
         'mvp_realtors':mvp_realtors
     }
     return render(request,'pages/about.html',context)
+
+def projects(request):
+    return render(request,'pages/projects.html')

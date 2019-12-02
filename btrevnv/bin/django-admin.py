@@ -1,4 +1,4 @@
-#!/Users/rst/djangonew/btre/btrevnv/bin/python3
+#!/home/user/Realtor-App-Python/btrevnv/bin/python3
 from django.core import management
 
 if __name__ == "__main__":
